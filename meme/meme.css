@@ -15,7 +15,6 @@ body {
     background-color: white;
     padding: 20px;
     border-radius: 8px;
-    /* background-color: rgb(247, 238, 238); */
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25) ;
 }
 
@@ -55,4 +54,54 @@ img {
 
 img:not([src]) {
     display: none;
+}
+@media (max-width: 600px) {
+    .meme-title {
+        font-size: 20px;
+    }
+    .author {
+        font-size: 10px;
+    }
+    button {
+        padding: 10px 14px;
+    }
+    .meme-container {
+        padding: 15px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .meme-title {
+        font-size: 22px;
+    }
+    .author {
+        font-size: 11px;
+    }
+    button {
+        padding: 11px 15px;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1200px) {
+    .meme-title {
+        font-size: 24px;
+    }
+    .author {
+        font-size: 12px;
+    }
+    button {
+        padding: 12px 16px;
+    }
+}
+
+@media (min-width: 1201px) {
+    .meme-title {
+        font-size: 26px;
+    }
+    .author {
+        font-size: 13px;
+    }
+    button {
+        padding: 12px 16px;
+    }
 }
